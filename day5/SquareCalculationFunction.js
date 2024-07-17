@@ -1,10 +1,10 @@
 function SquareCalculation(num = 5){
-    square = Math.pow(num , 2)
+    let square = Math.pow(num , 2)
     return square
 } 
 function main(){
-    randomNum = Math.round((Math.random())*10)
-    squareOfRandomNim = SquareCalculation(randomNum)
+    let randomNum = Math.round((Math.random())*10)
+    let square = SquareCalculation(randomNum)
     console.log(`Square of : ${randomNum} is ${square}`)
 }
 main()
